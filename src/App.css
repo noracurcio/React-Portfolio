@@ -1,0 +1,10 @@
+.portfolio-image {
+    max-width: 800px; max-height: 800px;
+    min-width: 30vh; min-height: 30vh;
+    height: 300px;
+    border: black solid 1px;
+}
+.projects{
+    text-align: center;
+    padding-bottom: 40px;
+}
