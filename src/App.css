@@ -1,5 +1,10 @@
 
 
+h1{
+    text-align: center;
+    font-family: 'Monoton';
+}
+
 .portfolio-image {
     max-width: 800px; max-height: 800px;
     min-width: 30vh; min-height: 30vh;
@@ -11,9 +16,14 @@
     padding-bottom: 40px;
 }
 body{
-    
-    background-color: rgb(215, 222, 238);
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    background-image: url("./components/pages/assets/images/sun.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-tabs {
     color: black;
@@ -21,13 +31,22 @@ body{
 
 .profPic{
     
-    width: 500px; 
+    width: 475px; 
     height: auto ;
     
 }
 .home-container{
     align-content: center;
 
+}
+
+.footer-links{
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    height: 2.5rem;
 }
 
 

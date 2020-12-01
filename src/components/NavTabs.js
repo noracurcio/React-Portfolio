@@ -9,7 +9,7 @@ function NavTabs() {
 
    
 
-    <div className= "navbar navbar-inverse ">
+    <div className= "navbar nav ">
       <div class="container-fluid">
       <div class="navbar-header">
 

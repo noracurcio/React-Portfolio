@@ -34,6 +34,14 @@ class Contact extends React.Component {
   
   render() {
     return(
+      <>
+      <h1>Contact Nora</h1>
+      <div className ="row">
+
+    <div className="container col-4 home-container">
+      <br></br>
+
+      
       <div className="App">
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="form-group">
@@ -51,6 +59,9 @@ class Contact extends React.Component {
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
+      </div>
+      </div>
+      </>
     );
   }
 
