@@ -6,9 +6,9 @@
 
   This portfoliio is created with react and highlights Nora's accomplishments.  
 
-  ## ![image info](images/screenshot1.png)
-  ## ![Image Info](images/screenshot2.png)
-  ## ![Image Info](images/screenshot3.png)
+  ## ![image info](client/images/screenshot1.png)
+  ## ![Image Info](client/images/screenshot2.png)
+  ## ![Image Info](client/images/screenshot3.png)
 
 
   ## TABLE OF CONTENTS
