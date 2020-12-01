@@ -1,7 +1,7 @@
 
 import React from 'react'
 import {DiHtml5, DiHeroku, DiJavascript1, DiNodejsSmall, DiReact, DiMongodb, DiMysql, DiBootstrap, DiNpm, DiGithub, DiJqueryLogo   } from 'react-icons/di'
-import resume from "./pages/assets/resume.pdf"
+
 
 
 
