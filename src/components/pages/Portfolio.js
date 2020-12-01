@@ -12,12 +12,15 @@ function Portfolio() {
     <div>
   <header>
     <h1>Portfolio</h1>
-  </header>
 
-  <div className="container-fluid">
+  </header>
+  <br></br>
+
+
+  <div className="container-fluid ">
     <section className="row">
       <Project
-        title="Taco Co's Playlist Generator"
+        title="TC Playlist Generator"
         hosted="https://noracurcio.github.io/Music-API-Group-Project/"
         repo="https://github.com/noracurcio/Music-API-Group-Project"
         about="Search and currate custom playlists by song title, artist, album or genre. Export your playlist for reuse. This application is built using Javascript, jQuery, CSS, HTML and ES6 featuring the user of third party API, Deezer."

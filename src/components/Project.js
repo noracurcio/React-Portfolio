@@ -11,7 +11,7 @@ const Project = (props) => {
             <h3>{props.title}</h3>
             <p><a href={props.hosted}>Hosted page</a></p>
             <p><a href={props.repo}>GitHub Repository</a></p>
-            <p>{props.about}</p>
+            <p className="port-descript">{props.about}</p>
             <img className="portfolio-image" src={props.image} alt={props.image}/>
         </div>
     )
