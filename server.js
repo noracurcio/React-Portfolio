@@ -3,6 +3,7 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
 const creds = require('./config');
+const PORT = process.env.PORT || 3001;
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
@@ -53,4 +54,4 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
-app.listen(3002)
+app.listen(PORT)
