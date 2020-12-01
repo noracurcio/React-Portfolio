@@ -1,7 +1,6 @@
 import React from "react";
 import profPic from "./assets/images/noramountain.jpeg"
 import resume from "./assets/resume.pdf"
-import { IconName } from "react-icons/di";
 
 function Home() {
   return (
@@ -9,7 +8,7 @@ function Home() {
 
     <h1 className="title">Nora Curcio</h1>
 
-
+    <br></br>
     <div class="container">
 
       <div class="row">
@@ -24,21 +23,17 @@ function Home() {
         <p>
           Currently attending the University of Denver's full stack web development program, Nora is pursuing a professional career in web development.
         </p>
-      </div>
-    </div>
-
-   <div className="container -center footer-links">
-    <footer>
-      <ul>
+        <ul className="">
         <li>Resume:<a href={resume}>Nora Curcio</a></li>
 
         <li>LinkedIn:<a href="https://www.linkedin.com/in/nora-curcio-578b21184">@noracurcio</a></li>
 
         <li>GitHub:<a href="https://github.com/noracurcio">@noracurcio</a></li>
       </ul>
-    </footer>
+      </div>
     </div>
 
+   
 
 
     </div>
