@@ -1,13 +1,14 @@
 import React from "react";
 import profPic from "./assets/images/noramountain.jpeg"
+import resume from "./assets/resume.pdf"
 
 function Home() {
   return (
-    <div>
+    <div className="container container-fluid -center home-container">
 
       
       <h1>About Me</h1>
-      <img src={profPic} alt="Profile Picture" className="img-fluid"></img>
+      <img src={profPic} alt="Profile Picture" className="img-fluid profPic"></img>
       <p>
       Nora Curcio is a young professional and full time student looking to advance her skills as a web developer. She is an enthusiast of the outdoors and travel who also enjoys plants and people.
       </p>
@@ -18,7 +19,7 @@ function Home() {
       <div>
         <footer className="container">
           <ul className="-center">
-            <li>Resume:<a href="./assets/Nora_Curcio.pdf">Nora Curcio</a></li>
+            <li>Resume:<a href={resume}>Nora Curcio</a></li>
 
             <li>LinkedIn:<a href="https://www.linkedin.com/in/nora-curcio-578b21184">@noracurcio</a></li>
 

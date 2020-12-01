@@ -36,11 +36,15 @@ function Portfolio() {
         repo="https://github.com/noracurcio/bootcampProjectTwo"
         about="This application was created for music lovers, by music lovers. On this forum, users can post a photo, description and review of a musical instrument or product. The post is then liked or disliked to get input form other users."
         className ="portfolio-image"image={congo}
+
+        
       />
       
     </section>
+    
   </div>
 </div>
+
 )
 }
 
