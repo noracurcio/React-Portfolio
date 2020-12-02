@@ -4,6 +4,8 @@ var nodemailer = require('nodemailer');
 var cors = require('cors');
 const creds = require('./config');
 const PORT = process.env.PORT || 3001;
+const path = require ("path")
+
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
@@ -64,7 +66,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "./client/index.html"));
+    
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
   });
 
 
