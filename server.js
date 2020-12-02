@@ -62,6 +62,11 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
   });
 
+
+  if (process.env.NODE_ENV === "production") {
+    app.use(express.static("client/build"));
+  }
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -69,5 +74,4 @@ app.get("*", function(req, res) {
     
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
   });
-
 
