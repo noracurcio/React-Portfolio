@@ -1,6 +1,7 @@
 import React from "react";
 import profPic from "../assets/images/noramountain.jpeg";
 import resume from "../assets/resume.pdf";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -45,7 +46,10 @@ function Home() {
                 GitHub:<a href="https://github.com/noracurcio">@noracurcio</a>
               </li>
 
-              <li>Email: noracurcio@gmail.com</li>
+              <li>
+                Email:
+                <Link to="/Contact"> noracurcio@gmail.com</Link>
+              </li>
             </ul>
           </div>
         </div>
