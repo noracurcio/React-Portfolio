@@ -1,40 +1,64 @@
 ![GitHub license](https://img.shields.io/badge/license--blue.svg)
-  
-  # React Portfolio
 
-  ## DESCRIPTION 
+# Nora Curcio's React Portfolio
 
-  This portfoliio is created with react and highlights Nora's accomplishments.  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## ![image info](client/images/screenshot1.png)
-  ## ![Image Info](client/images/screenshot2.png)
-  ## ![Image Info](client/images/screenshot3.png)
+## Description
 
+This portfoliio is created with React and highlights Nora's accomplishments as a Web Developer
 
-  ## TABLE OF CONTENTS
+## Table of Contents
 
-  * [LICENSE](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Future-Development](#future-development)
+- [Technologies-Used](#technologies-used)
+- [Heroku](#heroku)
+- [Questions](#questions)
 
-  * [CONTRIBUTING](#contributing)
+## Installation
 
-  * [TESTS](#tests)
+Steps to install project include:
 
-  * [QUESTIONS](#questions)
+- npm install the dependencies
 
-  ## TECHNOLOGIES USED
-  ReactJS, CSS, HTML, Bootstrap, Mongoose, Heroku
+## Usage
 
+## ![image info](client/images/screenshot1.png)
 
-  ## USAGE
-  N/A
+## ![Image Info](client/images/screenshot2.png)
 
-  ## LICENSE
-  N/A
+## ![Image Info](client/images/screenshot3.png)
 
-  ## FUTURE DEVELOPMENT
-  The form submission will be linked in the future to allow the contact portion to connect to Nora's email. 
+## Credits
 
-  ## QUESTIONS
-  Please contact noracurcio@gmail.com regarding any questions. 
+All of the code was developed by:
 
-  Github username: noracurcio
+- Nora Curcio
+  - GitHub Username: noracurcio
+  - GitHub Profile: https://github.com/noracurcio)
+
+## License
+
+This project is licensed under MIT.
+
+## Future-Development
+
+N/A
+
+## Technologies-Used
+
+ReactJS, CSS, HTML, Bootstrap, Heroku, NodeJS, Express
+
+## Heroku
+
+This application is deployed on Heroku and can be found at the following link: (https://nora-curcio-portfolio.herokuapp.com/)
+
+## Questions
+
+Please contact noracurcio@gmail.com regarding any questions.
+
+Github username: noracurcio
