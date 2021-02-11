@@ -1,6 +1,5 @@
 import React from "react";
 import profPic from "../assets/images/noramountain.jpeg";
-import resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -21,18 +20,29 @@ function Home() {
 
           <div class="col">
             <p>
-              Nora Curcio is a young professional and full time student looking
-              to advance her skills as a web developer. She is an enthusiast of
-              the outdoors and travel who also enjoys plants and people.
+              Full Stack Web Developer with a background in customer relations,
+              sales, and life-long dedication to learning. Effective at
+              combining creativity and problem solving to develop user-friendly
+              applications.
             </p>
             <p>
-              Graduate of University of Denver's Full-Stack Web Development
-              program, Nora is pursuing a professional career in web
-              development.
+              Trained formally at the University of Denver receiving Full-Stack
+              Certificate in an intensive boot camp program. Successfully
+              planned, strategized, managed and executed entire applications
+              with various technologies, demonstrating excellence in HTML, CSS,
+              JavaScript, Express, Node.js and React. Regarded in the workplace
+              as a bright and optimistic addition to any team and a valuable
+              problem-solving asset. I am passionate about creating positive
+              relationships and building technology that improves lives. Looking
+              to bring the combination of my experiences, skills and passions to
+              life in my next role as a web developer.
             </p>
             <ul className="">
               <li>
-                Resume:<a href={resume}>Nora Curcio</a>
+                Resume:
+                <a href="https://docs.google.com/document/d/1jACkU424qCvCImhNG7XR6USqmNlpZybz26GEr52vV78/edit?usp=sharing">
+                  Nora Curcio
+                </a>
               </li>
 
               <li>

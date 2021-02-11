@@ -1,15 +1,21 @@
-
-import React from 'react'
-import {DiHtml5, DiHeroku, DiJavascript1, DiNodejsSmall, DiReact, DiMongodb, DiMysql, DiBootstrap, DiNpm, DiGithub, DiJqueryLogo   } from 'react-icons/di'
-
-
-
-
+import React from "react";
+import {
+  DiHtml5,
+  DiHeroku,
+  DiJavascript1,
+  DiNodejsSmall,
+  DiReact,
+  DiMongodb,
+  DiMysql,
+  DiBootstrap,
+  DiNpm,
+  DiGithub,
+  DiJqueryLogo,
+} from "react-icons/di";
 
 function Footer() {
-    return (
-        <>
-
+  return (
+    <>
       <div className="footer footer-container col-12">
         <DiJavascript1 className="footer-icons icon1 col-sm-6 col-md-1" />
         <DiHtml5 className="footer-icons icon1 col-sm-6 col-md-1" />
@@ -23,8 +29,8 @@ function Footer() {
         <DiGithub className="footer-icons icon11 col-sm-6 col-md-1" />
         <DiJqueryLogo className="footer-icons icon2 col-sm-6 col-md-1" />
       </div>
-      </>
-    )
-  }
-  
-  export default Footer
+    </>
+  );
+}
+
+export default Footer;
