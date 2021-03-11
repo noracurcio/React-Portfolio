@@ -31,7 +31,7 @@ function Portfolio() {
             title="Shake It Up"
             hosted="https://shake-it-up.herokuapp.com/"
             repo="https://github.com/noracurcio/Shake-It-Up"
-            about="A Full Stack MERN application that allows users to randomly select an item from different categories representing a mason jar full of paper wads. The user can also decide to shake again if they draw an item they do not like. Additional features include creating a custom category, adding new activities, delete and update activities, and login with a secure authentication."
+            about="A Full-Stack MERN application that allows users to randomly select an item from different categories representing a mason jar full of paper wads. The user can also decide to shake again if they draw an item they do not like. Additional features include creating a custom category, adding new activities, delete and update activities, and login with a secure authentication."
             className="portfolio-image"
             image={shakeitup}
           />
