@@ -6,6 +6,7 @@ import weather2 from "../assets/images/wdash_2.png";
 // import burger from "./assets/images/bger.png"
 import congo from "../assets/images/congo.png";
 import shakeitup from "../assets/images/shakeitup.png";
+import thecoloconcierge from "../assets/images/thecoloconcierge.png";
 
 function Portfolio() {
   return (
@@ -29,7 +30,7 @@ function Portfolio() {
             title="Shake It Up"
             hosted="https://shake-it-up.herokuapp.com/"
             repo="https://github.com/noracurcio/Shake-It-Up"
-            about="A full stack MERN application that allows users to randomly select an item from different categories representing a mason jar full of paper wads. The user can also decide to shake again if they draw an item they do not like. Additional features include creating a custom category, adding new activities, delete and update activities, and login with a secure authentication."
+            about="A Full Stack MERN application that allows users to randomly select an item from different categories representing a mason jar full of paper wads. The user can also decide to shake again if they draw an item they do not like. Additional features include creating a custom category, adding new activities, delete and update activities, and login with a secure authentication."
             className="portfolio-image"
             image={shakeitup}
           />
@@ -37,7 +38,8 @@ function Portfolio() {
             title="CONGO"
             hosted="https://vast-fortress-76466.herokuapp.com/"
             repo="https://github.com/noracurcio/bootcampProjectTwo"
-            about="This application was created for music lovers, by music lovers. On this forum, users can post a photo, description and review of a musical instrument or product. The post is then liked or disliked to get input form other users."
+            about="A simple application for posting, ranking and commenting on music items. The user has the opportunity to create a profile and log in, like and comment on existing products or post new products. Created using Handlebars as the templating software and an SQL database.
+            "
             className="portfolio-image"
             image={congo}
           />
@@ -54,7 +56,7 @@ function Portfolio() {
             hosted="https://thecoloradoconcierge.com/"
             about="Business Website Built on Wordpress."
             className="portfolio-image"
-            image={tacos}
+            image={thecoloconcierge}
           />
         </section>
       </div>
