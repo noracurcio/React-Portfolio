@@ -49,6 +49,13 @@ function Portfolio() {
             className="portfolio-image"
             image={weather2}
           />
+          <Project
+            title="The Colorado Concierge"
+            hosted="https://thecoloradoconcierge.com/"
+            about="Business Website Built on Wordpress."
+            className="portfolio-image"
+            image={tacos}
+          />
         </section>
       </div>
     </div>
