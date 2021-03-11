@@ -35,6 +35,7 @@ function Portfolio() {
             className="portfolio-image"
             image={shakeitup}
           />
+
           <Project
             title="CONGO"
             hosted="https://vast-fortress-76466.herokuapp.com/"
@@ -52,7 +53,7 @@ function Portfolio() {
             className="portfolio-image"
             image={weather2}
           />
-          <ProjNoGit
+          <Project
             title="The Colorado Concierge"
             hosted="https://thecoloradoconcierge.com/"
             about="Business Website Built on Wordpress."
