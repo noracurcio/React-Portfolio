@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../components/Project";
+import ProjNoGit from "../components/ProjNoGit";
 import tacos from "../assets/images/tacosplaylistgen.png";
 // import weather1 from "./assets/images/wdash_1.png";
 import weather2 from "../assets/images/wdash_2.png";
@@ -51,7 +52,7 @@ function Portfolio() {
             className="portfolio-image"
             image={weather2}
           />
-          <Project
+          <ProjNoGit
             title="The Colorado Concierge"
             hosted="https://thecoloradoconcierge.com/"
             about="Business Website Built on Wordpress."
