@@ -53,7 +53,7 @@ function Portfolio() {
             className="portfolio-image"
             image={weather2}
           />
-          <Project
+          <ProjNoGit
             title="The Colorado Concierge"
             hosted="https://thecoloradoconcierge.com/"
             about="Business Website Built on Wordpress."
