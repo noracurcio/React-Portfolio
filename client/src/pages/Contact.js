@@ -39,7 +39,7 @@ class Contact extends React.Component {
           <div className="container col-3 home-container">
             <br></br>
             <p className="contact-p">
-              Phone: 720-369-6073 | Email: noracurcio@gmail.com
+              Phone: 720-369-6073 <br></br> Email: noracurcio@gmail.com
             </p>
           </div>
         </div>

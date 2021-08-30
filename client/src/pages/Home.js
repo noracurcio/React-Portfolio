@@ -35,14 +35,14 @@ function Home() {
             <ul className="">
               <li>
                 Resume:
-                <a href="https://docs.google.com/document/d/1jACkU424qCvCImhNG7XR6USqmNlpZybz26GEr52vV78/edit?usp=sharing">
+                <a href="https://docs.google.com/document/d/1O3GB_t6-YtmgPmcBOwcXbO360Tf8TKzgh2GV3kHOUTs/edit?usp=sharing">
                   Nora Curcio
                 </a>
               </li>
 
               <li>
                 LinkedIn:
-                <a href="https://www.linkedin.com/in/nora-curcio-578b21184">
+                <a href="https://www.linkedin.com/in/nora-curcio/">
                   @noracurcio
                 </a>
               </li>

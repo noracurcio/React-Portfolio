@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+.nora-nav {
+  color: #222222;
+}
+
 .portfolio-image {
   max-width: 800px;
   max-height: 800px;

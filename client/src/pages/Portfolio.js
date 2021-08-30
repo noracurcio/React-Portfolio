@@ -8,6 +8,7 @@ import weather2 from "../assets/images/wdash_2.png";
 import congo from "../assets/images/congo.png";
 import shakeitup from "../assets/images/shakeitup.png";
 import thecoloconcierge from "../assets/images/thecoloconcierge.png";
+import tungtoff from "../assets/images/tungtoff.png";
 
 function Portfolio() {
   return (
@@ -15,6 +16,7 @@ function Portfolio() {
       <header>
         <h1>Portfolio</h1>
       </header>
+      <br></br>
       <br></br>
 
       <div className="container-fluid ">
@@ -59,6 +61,13 @@ function Portfolio() {
             about="Business Website Built on Wordpress."
             className="portfolio-image"
             image={thecoloconcierge}
+          />
+          <ProjNoGit
+            title="Tungsten Toffee"
+            hosted="tungtentoffee.com"
+            about="Business e commerce website built from scratch."
+            className="portfolio-image"
+            image={tungtoff}
           />
         </section>
       </div>
