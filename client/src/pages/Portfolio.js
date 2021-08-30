@@ -9,6 +9,9 @@ import congo from "../assets/images/congo.png";
 import shakeitup from "../assets/images/shakeitup.png";
 import thecoloconcierge from "../assets/images/thecoloconcierge.png";
 import tungtoff from "../assets/images/tungtoff.png";
+import whetstonenewsletter from "../assets/images/whetstonenewsletter.png";
+import whetstone1 from "../assets/images/whetstone1.png";
+import whetstone2 from "../assets/images/whetstone2.png";
 
 function Portfolio() {
   return (
@@ -22,20 +25,42 @@ function Portfolio() {
       <div className="container-fluid ">
         <section className="row">
           <Project
-            title="TC Playlist Generator"
-            hosted="https://noracurcio.github.io/Music-API-Group-Project/"
-            repo="https://github.com/noracurcio/Music-API-Group-Project"
-            about="Search and currate custom playlists by song title, artist, album or genre. Export your playlist for reuse. This application is built using Javascript, jQuery, CSS, HTML and ES6 featuring the user of third party API, Deezer."
-            className="portfolio-image"
-            image={tacos}
-          />
-          <Project
             title="Shake It Up"
             hosted="https://shake-it-up.herokuapp.com/"
             repo="https://github.com/noracurcio/Shake-It-Up"
             about="A Full-Stack MERN application that allows users to randomly select an item from different categories representing a mason jar full of paper wads. The user can also decide to shake again if they draw an item they do not like. Additional features include creating a custom category, adding new activities, delete and update activities, and login with a secure authentication."
             className="portfolio-image"
             image={shakeitup}
+          />
+          <ProjNoGit
+            title="Tungsten Toffee"
+            hosted="tungtentoffee.com"
+            about="Business e-commerce website built from scratch."
+            className="portfolio-image"
+            image={tungtoff}
+          />
+          <ProjNoGit
+            title="Whetstone Weekly Newsletter"
+            hosted="https://drive.google.com/drive/folders/1wGlog4pocdkt9eYdUi9SNmCfrkqrod3n"
+            about="HTML Newsletters coded weekly to Whetstone's specifications."
+            className="portfolio-image"
+            image={whetstonenewsletter}
+          />
+          <ProjNoGit
+            title="Whetstone Magazine"
+            hosted="whetstonemagazine.com"
+            about="Management of multiple company platforms"
+            className="portfolio-image"
+            image={whetstone1}
+            // image={whetstone2}
+          />
+          <Project
+            title="TC Playlist Generator"
+            hosted="https://noracurcio.github.io/Music-API-Group-Project/"
+            repo="https://github.com/noracurcio/Music-API-Group-Project"
+            about="Search and currate custom playlists by song title, artist, album or genre. Export your playlist for reuse. This application is built using Javascript, jQuery, CSS, HTML and ES6 featuring the user of third party API, Deezer."
+            className="portfolio-image"
+            image={tacos}
           />
 
           <Project
@@ -61,13 +86,6 @@ function Portfolio() {
             about="Business Website Built on Wordpress."
             className="portfolio-image"
             image={thecoloconcierge}
-          />
-          <ProjNoGit
-            title="Tungsten Toffee"
-            hosted="tungtentoffee.com"
-            about="Business e commerce website built from scratch."
-            className="portfolio-image"
-            image={tungtoff}
           />
         </section>
       </div>
