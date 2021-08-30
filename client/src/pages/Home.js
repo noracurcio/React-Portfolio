@@ -20,22 +20,17 @@ function Home() {
 
           <div class="col">
             <p>
-              Full Stack Web Developer with a background in customer relations,
-              sales, and life-long dedication to learning. Effective at
-              combining creativity and problem solving to develop user-friendly
-              applications.
-            </p>
-            <p>
-              Trained formally at the University of Denver receiving Full-Stack
-              Certificate in an intensive boot camp program. Successfully
-              planned, strategized, managed and executed entire applications
-              with various technologies, demonstrating excellence in HTML, CSS,
-              JavaScript, Express, Node.js and React. Regarded in the workplace
-              as a bright and optimistic addition to any team and a valuable
-              problem-solving asset. I am passionate about creating positive
-              relationships and building technology that improves lives. Looking
-              to bring the combination of my experiences, skills and passions to
-              life in my next role as a web developer.
+              Leveraging a software development skillset and a background in
+              sales, Nora is effective at combining creativity and problem
+              solving to develop and sell web services and applications.
+              Regarded in the workplace as a bright and optimistic addition to
+              any team and a valuable problem-solving asset. Passionate about
+              creating positive relationships and building technology that
+              improves lives.<br></br> Technical Skills HTML5 | CSS3 |
+              JavaScript (ES6) | jQuery | React.js | Bootstrap | Node.js |
+              Express.js | REST API/AJAX and Servers | MySQL | NoSQL | MongoDB |
+              GitHub | Heroku | Atlas | Adobe Photoshop | Adobe Illustrator |
+              Microsoft Office Suite
             </p>
             <ul className="">
               <li>

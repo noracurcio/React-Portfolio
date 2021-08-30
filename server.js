@@ -1,7 +1,5 @@
 var express = require("express");
 var router = express.Router();
-var nodemailer = require("nodemailer");
-var cors = require("cors");
 const creds = require("./config");
 const PORT = process.env.PORT || 3001;
 const path = require("path");
